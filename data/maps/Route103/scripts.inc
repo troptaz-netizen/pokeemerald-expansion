@@ -292,7 +292,7 @@ Route103_Text_MayRoute103Pokemon:
 
 Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
-	.string "…Oh, I see, my dad gave you\n"
+	.string "…Oh, I see, my sibling gave you\n"
 	.string "a POKéMON as a gift.\p"
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
@@ -304,8 +304,8 @@ Route103_Text_MayDefeated:
 	.string "{PLAYER}{KUN}, you're pretty good!$"
 
 Route103_Text_MayTimeToHeadBack:
-	.string "COAL: I think I know why my dad has\n"
-	.string "an eye out for you now.\p"
+	.string "COAL: I think I know why my sibling\n"
+	.string "has an eye out for you now.\p"
 	.string "I mean, you just got that POKéMON,\n"
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
@@ -319,7 +319,8 @@ Route103_Text_BrendanRoute103Pokemon:
 
 Route103_Text_BrendanLetsBattle:
 	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
+	.string "…Oh, yeah, my sibling gave you\n"
+	.string "a POKéMON.\p"
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
 	.string "I'll teach you what being a TRAINER's\n"
@@ -330,8 +331,8 @@ Route103_Text_BrendanDefeated:
 
 Route103_Text_BrendanTimeToHeadBack:
 	.string "HAL: I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
+	.string "I think I know why my sibling has\l"
+	.string "an eye out for you now.\p"
 	.string "Look, your POKéMON already likes you,\n"
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"

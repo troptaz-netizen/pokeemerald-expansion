@@ -1050,20 +1050,11 @@ static void SaveBattleTowerRecord(void)
     ClearBattleTowerRecord(playerRecord);
     lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
     battleMode = VarGet(VAR_FRONTIER_BATTLE_MODE);
-    if (gSaveBlock2Ptr->playerGender != MALE)
-    {
-        class = gTowerFemaleFacilityClasses[(gSaveBlock2Ptr->playerTrainerId[0] +
-                                       gSaveBlock2Ptr->playerTrainerId[1] +
-                                       gSaveBlock2Ptr->playerTrainerId[2] +
-                                       gSaveBlock2Ptr->playerTrainerId[3]) % ARRAY_COUNT(gTowerFemaleFacilityClasses)].class;
-    }
-    else
-    {
-        class = gTowerMaleFacilityClasses[(gSaveBlock2Ptr->playerTrainerId[0] +
-                                     gSaveBlock2Ptr->playerTrainerId[1] +
-                                     gSaveBlock2Ptr->playerTrainerId[2] +
-                                     gSaveBlock2Ptr->playerTrainerId[3]) % ARRAY_COUNT(gTowerMaleFacilityClasses)].class;
-    }
+    // Coal (FEMALE slot) is a man and Hal (MALE slot) is non-binary, so both use the male facility classes
+    class = gTowerMaleFacilityClasses[(gSaveBlock2Ptr->playerTrainerId[0] +
+                                 gSaveBlock2Ptr->playerTrainerId[1] +
+                                 gSaveBlock2Ptr->playerTrainerId[2] +
+                                 gSaveBlock2Ptr->playerTrainerId[3]) % ARRAY_COUNT(gTowerMaleFacilityClasses)].class;
     playerRecord->lvlMode = lvlMode;
     playerRecord->facilityClass = class;
     CopyTrainerId(playerRecord->trainerId, gSaveBlock2Ptr->playerTrainerId);

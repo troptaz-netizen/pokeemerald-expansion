@@ -173,9 +173,7 @@ static void Task_ShakeScreen(u8 taskId);
 static void Task_EndScreenShake(u8 taskId);
 
 static const u8 sText_BigGuy[] = _("Big guy");
-static const u8 sText_BigGirl[] = _("Big girl");
-static const u8 sText_Son[] = _("son");
-static const u8 sText_Daughter[] = _("daughter");
+static const u8 sText_BigKid[] = _("Big kid");
 static const u8 sText_99TimesPlus[] = _("99 times +");
 static const u8 sText_1MinutePlus[] = _("1 minute +");
 static const u8 sText_SpaceSeconds[] = _(" seconds");
@@ -960,18 +958,11 @@ u8 GetPlayerTrainerIdOnesDigit(void)
 
 void GetPlayerBigGuyGirlString(void)
 {
+    // Hal (MALE slot) is non-binary, Coal (FEMALE slot) is a man
     if (gSaveBlock2Ptr->playerGender == MALE)
+        StringCopy(gStringVar1, sText_BigKid);
+    else
         StringCopy(gStringVar1, sText_BigGuy);
-    else
-        StringCopy(gStringVar1, sText_BigGirl);
-}
-
-void GetRivalSonDaughterString(void)
-{
-    if (gSaveBlock2Ptr->playerGender == MALE)
-        StringCopy(gStringVar1, sText_Daughter);
-    else
-        StringCopy(gStringVar1, sText_Son);
 }
 
 u8 GetBattleOutcome(void)

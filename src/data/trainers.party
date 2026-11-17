@@ -9455,11 +9455,11 @@ Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLY_VR_1 ===
-Name: WALLY
+Name: RYA
 Class: Rival
 Pic: Wally
-Gender: Male
-Music: Male
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -9673,8 +9673,8 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9686,8 +9686,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9707,8 +9707,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9728,8 +9728,8 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9741,8 +9741,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9762,8 +9762,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9783,8 +9783,8 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9796,8 +9796,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -9817,8 +9817,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -10990,8 +10990,8 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
@@ -12036,24 +12036,24 @@ Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
-Name: WALLY
+Name: RYA
 Class: Rival
 Pic: Wally
-Gender: Male
-Music: Male
+Gender: Female
+Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Ralts
+Voltorb
 Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_WALLY_VR_2 ===
-Name: WALLY
+Name: RYA
 Class: Rival
 Pic: Wally
-Gender: Male
-Music: Male
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12099,11 +12099,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_WALLY_VR_3 ===
-Name: WALLY
+Name: RYA
 Class: Rival
 Pic: Wally
-Gender: Male
-Music: Male
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12149,11 +12149,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_WALLY_VR_4 ===
-Name: WALLY
+Name: RYA
 Class: Rival
 Pic: Wally
-Gender: Male
-Music: Male
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12199,11 +12199,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_WALLY_VR_5 ===
-Name: WALLY
+Name: RYA
 Class: Rival
 Pic: Wally
-Gender: Male
-Music: Male
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12327,8 +12327,8 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -12352,8 +12352,8 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -12377,8 +12377,8 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -14127,8 +14127,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -14144,8 +14144,8 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Name: COAL
 Class: Rival
 Pic: May
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
@@ -16870,7 +16870,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Name: COAL
 Class: RS Protag
 Pic: RS May
-Gender: Female
+Gender: Male
 Music: Male
 Double Battle: No
 
